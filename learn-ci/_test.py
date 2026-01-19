@@ -12,8 +12,8 @@ def test_square():
     assert square(3)==9
     
 def test_cube():
-    assert cube(2)==4
-    assert cube(3)==9
+    assert cube(2)==8
+    assert cube(3)==27
 
 def test_fifth():
     assert fifth(2)==32
