@@ -84,7 +84,7 @@ class DataTransformation:
             df = df.drop(drop_col, axis=1)
         return df
     
-    def initial_data_transformation(self)-> DataTransformationArtifact:
+    def initiate_data_transformation(self)-> DataTransformationArtifact:
         try:
             logging.info("Starting data transformation")
             if not self.data_validation_artifact.validation_status:
